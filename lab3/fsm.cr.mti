@@ -1,0 +1,29 @@
+F:/All_apps_and_contents_3/Model_sim/projects/lab3/tb_fsm.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/lab3/tb_fsm.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module fsm_tb
+
+Top level modules:
+	fsm_tb
+
+} {} {}} F:/All_apps_and_contents_3/Model_sim/projects/lab3/counter.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/lab3/counter.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} F:/All_apps_and_contents_3/Model_sim/projects/lab3/tb_counter.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/lab3/tb_counter.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module tb_counter
+
+Top level modules:
+	tb_counter
+
+} {} {}} F:/All_apps_and_contents_3/Model_sim/projects/lab3/fsm.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/lab3/fsm.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module fsm
+
+Top level modules:
+	fsm
+
+} {} {}}

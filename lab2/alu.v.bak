@@ -1,0 +1,25 @@
+module alu (
+    input [7:0] a,
+    input [7:0] b,
+    input s1,
+    input s2,
+    output [7:0] y
+);
+    initial begin
+        if (s1==0) y=a+b;
+        else if (s2==0) y=a-b;
+        else y=a*b;
+    end
+
+endmodule
+
+module alu_topmodule (
+    input [7:0] a1,b1;
+    input s11,s12;
+    output y1;
+);
+
+alu alu1 (
+    .a(a1), .b(b1),.s1(s11),.s2(s12),.y(y1)
+);
+endmodule

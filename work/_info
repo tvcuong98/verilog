@@ -1,0 +1,104 @@
+m255
+K3
+13
+cModel Technology
+dF:\All_apps_and_contents_3\Model_sim\modelsim_ae\examples
+vBCD27seg
+!s100 ]g23CJ9MkzO]]UVj3L@jk1
+IG@c:?klS<fmEH`AQkehkc3
+V=^;j;4i[c?FNeIkb]dQ]E3
+Z0 dF:\All_apps_and_contents_3\Model_sim\projects
+Z1 w1709886376
+Z2 8C:/Users/TRANG ANH LAPTOP/Downloads/BCD27seg_topmodule.v
+Z3 FC:/Users/TRANG ANH LAPTOP/Downloads/BCD27seg_topmodule.v
+L0 1
+Z4 OV;L;6.5b;42
+r1
+!s85 0
+31
+!s101 -O0
+Z5 !s102 -nocovercells
+Z6 o-work work -nocovercells -O0
+n@b@c@d27seg
+vBCD27seg_topmodule
+!s100 n^<l<NT>4bj0Q7Q>5^7T51
+I]8KF_=GBWXOLOdKN>jGMD3
+VIDW7@U4MfKT5mAQB@OQD<0
+Z7 dF:\All_apps_and_contents_3\Model_sim\projects
+R1
+R2
+R3
+L0 20
+R4
+r1
+!s85 0
+31
+!s101 -O0
+R5
+R6
+n@b@c@d27seg_topmodule
+vdemo
+IQVYN=3DnLXNaRe^`]=bKc2
+V5Jf6_CegL6RUN^G``<c2_1
+R7
+w1709714916
+8F:/All_apps_and_contents_3/Model_sim/projects/demo.v
+FF:/All_apps_and_contents_3/Model_sim/projects/demo.v
+L0 1
+R4
+r1
+31
+R6
+R5
+!s100 8`LnXeXV]23c1B^dSCPnl3
+!s85 0
+!s101 -O0
+vtestbench_BCD27seg_topmodule
+I]^hJ;i>nR=BXMo5VL0Vl63
+V_Z<c@a4gneSN18?flgFz;2
+R7
+w1709886395
+8C:/Users/TRANG ANH LAPTOP/Downloads/tb_BCD27seg_topmodule.v
+FC:/Users/TRANG ANH LAPTOP/Downloads/tb_BCD27seg_topmodule.v
+L0 2
+R4
+r1
+31
+R5
+R6
+ntestbench_@b@c@d27seg_topmodule
+!s100 493ZS;ALzIQ`Ub3[OJl@L0
+!s85 0
+!s101 -O0
+vtop
+IAXE`;Kc8]DlafThd9;MZn1
+Ve:gFW1CKLAXc^T:7k2HoD1
+R7
+w1709714555
+8F:/All_apps_and_contents_3/Model_sim/projects/top.v
+FF:/All_apps_and_contents_3/Model_sim/projects/top.v
+L0 1
+R4
+r1
+31
+R5
+R6
+!s100 Z86GTmlY18bOG]YglSg8B2
+!s85 0
+!s101 -O0
+vtop_module
+IfiX<HH2UOQza?;9z8_RX42
+V^Nn@<9:AXh5kB0;hbEajg1
+R7
+w1709719457
+8F:/All_apps_and_contents_3/Model_sim/projects/topmodule.v
+FF:/All_apps_and_contents_3/Model_sim/projects/topmodule.v
+L0 1
+R4
+r1
+31
+R5
+R6
+!s100 lfzIiG3_ZVzPH=JXnS;Ai1
+!s85 0
+!s101 -O0

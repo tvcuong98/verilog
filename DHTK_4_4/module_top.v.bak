@@ -1,0 +1,85 @@
+module module_top(input clk, input rst_p,input pause,input switch_second,input switch_minute,input switch_hour,input switch_day,input switch_month,input switch_year, input switch, output [55:0] disp_reg);
+
+    wire [5:0] sec;
+    wire [5:0] min;
+    wire [4:0] hour;
+    wire [4:0] day;
+    wire [3:0] month;
+    wire [11:0] year;
+
+    main_control DHTK(.clk(clk), .rst_p(rst_p),.pause(pause),.switch_second(switch_second),.switch_minute(switch_minute),.switch_hour(switch_hour),.switch_day(switch_day),.switch_month(switch_month),.switch_year(switch_year), .sec(sec), .min(min), .hour(hour), .day(day), .month(month), .year(year));
+    display disp(.clk(clk), .rst_p(rst_p), .sec(sec), .min(min), .hour(hour), .day(day), .month(month), .year(year), .switch(switch), .display_reg(disp_reg));
+endmodule
+`timescale 1ps/1ps
+module main_control_tb();
+    parameter CLK_PERIOD = 2;
+    reg clk;
+    reg rst_p;
+    reg pause;
+    reg switch_second, switch_minute, switch_hour, switch_day, switch_month, switch_year;
+    reg switch;
+
+    wire [5:0] sec;
+    wire [5:0] min;
+    wire [4:0] hour;
+    wire [4:0] day;
+    wire [3:0] month;
+    wire [11:0] year; 
+
+    main_control DHTK(
+        .clk (clk),
+        .rst_p(rst_p),
+        .pause(pause),
+        .switch_second(switch_second),
+        .switch_minute(switch_minute),
+        .switch_hour(switch_hour),
+        .switch_day(switch_day),
+        .switch_month(switch_month),
+        .switch_year(switch_year),
+        .sec (sec),
+        .min (min),
+        .hour (hour),
+        .day (day),
+        .month (month),
+        .year (year)
+    );
+    display disp(.clk(clk), .rst_p(rst_p), .sec(sec), .min(min), .hour(hour), .day(day), .month(month), .year(year), .switch(switch), .display_reg(disp_reg));
+    // Clock generation
+    always #((CLK_PERIOD/2)) clk = ~clk;
+
+    // Initial stimulus
+    initial begin
+        // Initialize inputs
+        rst_p = 0;
+        clk = 0;
+        pause = 0;
+        switch_second = 0;
+        switch_minute = 0;
+        switch_hour = 0;
+        switch_day = 0;
+        switch_month = 0;
+        switch_year = 0;
+        // Reset FSM
+        #2 rst_p = 1;
+	    #2 rst_p = 0;
+        #50;
+        pause = 1;
+        #10;
+        switch_second = 1;
+        #10;
+        switch_second = 0;
+        #10;
+        pause = 0;
+        #10;', mkiko
+        pause = 1;
+        #10;
+        switch_year = 1;
+        #10;
+        switch_year =0;
+        #10;
+        pause = 0;
+    end
+endmodule
+
+
+

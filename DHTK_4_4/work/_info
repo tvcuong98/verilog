@@ -1,0 +1,349 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/cgcom/projects/verilog_projects/projects/lab3_donghotheky_modern
+vbin2bcd
+Z1 !s100 h3N6ML3n_ioJdfO[5N2H=2
+Z2 IHn73YNQP`[0bIPDfm`o:72
+Z3 VoIGeJ@S?Q16ih6ofYBDoC3
+Z4 d/home/cgcom/projects/verilog_projects/projects/DHTK_4_4
+Z5 w1711750478
+Z6 8/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/binary_to_BCD.v
+Z7 F/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/binary_to_BCD.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/binary_to_BCD.v|
+Z10 o-work work -O0
+Z11 !s108 1712288614.496724
+Z12 !s107 /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/binary_to_BCD.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vday_counter
+Z13 !s100 4;gmJUoeHE[E^aG@gIDPh2
+Z14 ITImnPOcNjDbO;[S[@S@?l0
+Z15 Vdh5UDcH4EJH;C]CY5<V=`1
+R4
+Z16 w1712288611
+Z17 8/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/donghotheki.v
+Z18 F/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/donghotheki.v
+Z19 L0 177
+R8
+r1
+31
+Z20 !s108 1712288614.536755
+Z21 !s107 /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/donghotheki.v|
+Z22 !s90 -reportprogress|300|-work|work|/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/donghotheki.v|
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vDHTK_Testbench
+Z23 !s100 307ozO[>AbkJ3UhfP8MNO2
+Z24 IFE2:Z[Q]iV^]TJ=UDkbmk2
+Z25 V;W7m:8SRWg[A42XM8]>[40
+R4
+R5
+Z26 8/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/donghotheki_testbench.v
+Z27 F/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/donghotheki_testbench.v
+L0 2
+R8
+r1
+31
+Z28 !s90 -reportprogress|300|-work|work|/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/donghotheki_testbench.v|
+R10
+Z29 n@d@h@t@k_@testbench
+Z30 !s108 1712288614.559620
+Z31 !s107 /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/donghotheki_testbench.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdisplay
+Z32 !s100 >TfdI=m1VJKkLbYC2E7z11
+Z33 I0@D1CL^h?7Z2CjHWU67100
+Z34 VcINHhbFXiO6IN^BZ4j]R`1
+R4
+R5
+Z35 8/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/display.v
+Z36 F/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/display.v
+L0 1
+R8
+r1
+31
+Z37 !s90 -reportprogress|300|-work|work|/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/display.v|
+R10
+Z38 !s108 1712288614.516759
+Z39 !s107 /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/display.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vGiaima7Thanh
+Z40 !s100 66MlhGSUJDCg8cW5<4ZmF0
+Z41 IH2[Ajl5Y4L_Hj<VRo9R`91
+Z42 VC]TM2B<Ycia3`a^dnX^O^3
+R4
+R5
+Z43 8/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/GiaiMa7Thanh.v
+Z44 F/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/GiaiMa7Thanh.v
+L0 1
+R8
+r1
+31
+Z45 !s90 -reportprogress|300|-work|work|/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/GiaiMa7Thanh.v|
+R10
+Z46 n@giaima7@thanh
+Z47 !s108 1712288614.579716
+Z48 !s107 /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/GiaiMa7Thanh.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vhour_counter
+Z49 !s100 G`B^MFKZd;HcNeI:[ZP`f2
+Z50 Ioi3R<N;A^ghd2Vd:CV>`63
+Z51 Vl8jC0zL9S8J3eJ@b2Y]Ob2
+R4
+R16
+R17
+R18
+Z52 L0 139
+R8
+r1
+31
+R20
+R21
+R22
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vmain_control
+Z53 !s100 Wz0^7SHPVzE8>@6Nj=m`60
+Z54 I>D7TO2S3VkATLUz^LgQk71
+Z55 V72D5YIB@=BbHMXoPjCz[23
+R4
+Z56 w1712283469
+Z57 8/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/main_control.v
+Z58 F/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/main_control.v
+L0 1
+R8
+r1
+31
+Z59 !s108 1712288614.590050
+Z60 !s107 /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/main_control.v|
+Z61 !s90 -reportprogress|300|-work|work|/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/main_control.v|
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vmain_control_tb
+Z62 !s100 P2X4e^cz]TBU:Xll6mclb0
+Z63 Iki`DVXhP2Y@f[[SXEde8M3
+Z64 V?=i^Ujm_T8`oNHjmzz^F01
+R4
+R56
+R57
+R58
+L0 35
+R8
+r1
+31
+R59
+R60
+R61
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vminute_counter
+Z65 !s100 45;cf;a2;=54]ITdTa^`J0
+Z66 Icd^[AGW;c`GeV;SFNWkVL2
+Z67 VNd0>LF4g0OSKFON`?zIbn1
+R4
+R16
+R17
+R18
+Z68 L0 102
+R8
+r1
+31
+R20
+R21
+R22
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vminute_counter_tb
+Z69 !s100 XIU8m]FZjmjfGSi8O9l352
+Z70 I`zZQF<RRJVbd>TQB8fm4:1
+Z71 VTioC8N20^Yhh18`GjH?zD1
+R4
+Z72 w1712224266
+Z73 8/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/minute_counter_tb.v
+Z74 F/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/minute_counter_tb.v
+L0 1
+R8
+r1
+31
+Z75 !s90 -reportprogress|300|-work|work|/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/minute_counter_tb.v|
+R10
+Z76 !s108 1712288614.620256
+Z77 !s107 /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/minute_counter_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmodule_top
+Z78 !s100 od^fcY9nTzo5Vz8g:[kgi3
+Z79 Ie4_R]CWfPc^RAI^N@2Cj_0
+Z80 VGM70zhJOF_JONYeFWQLN?0
+R4
+Z81 w1712283472
+Z82 8/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/module_top.v
+Z83 F/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/module_top.v
+L0 1
+R8
+r1
+31
+Z84 !s90 -reportprogress|300|-work|work|/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/module_top.v|
+R10
+!i10b 1
+!s85 0
+Z85 !s108 1712288614.640561
+Z86 !s107 /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/module_top.v|
+!s101 -O0
+vmonth_counter
+Z87 !s100 Kz<OhgC@ohVz4ZliC=afL2
+Z88 IZMz9le8U5UVBUJU9GDP^Z0
+Z89 V?dnhHOMG7YUc=K;DI1H092
+R4
+R16
+R17
+R18
+Z90 L0 248
+R8
+r1
+31
+R20
+R21
+R22
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vpulse_0_5s
+Z91 Io=c9deZaD7O5?0hlEC3b[3
+Z92 V]4@he]VzkF6=EjR3oRX[U0
+R4
+R16
+R17
+R18
+L0 35
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z93 !s100 8=TboBde:_nF_YT_Gmc]m3
+!i10b 1
+!s85 0
+!s101 -O0
+vpulse_1s
+Z94 IR:1]?zjGYB>n8Y9zNh9G73
+Z95 V4dbSJZXd32mL45cTBfUE^3
+R4
+R16
+R17
+R18
+L0 3
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z96 !s100 8]Xd>PYGQFfYdZ;2aNe020
+!i10b 1
+!s85 0
+!s101 -O0
+vsecond_counter
+Z97 !s100 WZ1Q2TXQlh6=HOL?j9:3c3
+Z98 IJ=kUShmIJK>Wdzon@ZjJ?3
+Z99 V6Vn0ld1WGRRgkZ06j=jZU2
+R4
+R16
+R17
+R18
+L0 60
+R8
+r1
+31
+R20
+R21
+R22
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vtest_module
+!i10b 1
+Z100 !s100 JzgV<CIYBnLKVeam95b@42
+Z101 I6X4g9iLe;5^RQoAoG]oXX2
+Z102 V17@W6bL@Pg?7AAfhMMk6z0
+R4
+R5
+Z103 8/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/test_tung_module.v
+Z104 F/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/test_tung_module.v
+L0 48
+R8
+r1
+!s85 0
+31
+!s108 1712288614.654635
+!s107 /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/test_tung_module.v|
+Z105 !s90 -reportprogress|300|-work|work|/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/test_tung_module.v|
+!s101 -O0
+R10
+vtop
+Z106 IO40F`^@SZ0bX]94Q2KY[Q0
+Z107 Vb`?S`d0:BfYWR_gKe0enG3
+Z108 d/home/cgcom/projects/verilog_projects/projects/DHTK_30_3
+Z109 w1711753013
+Z110 8/home/cgcom/projects/verilog_projects/projects/DHTK_30_3/module_top.v
+Z111 F/home/cgcom/projects/verilog_projects/projects/DHTK_30_3/module_top.v
+L0 1
+R8
+r1
+31
+R10
+Z112 !s100 T6lB7k]@QeL7HCAJWAf`d0
+Z113 !s108 1711753224.784318
+Z114 !s107 /home/cgcom/projects/verilog_projects/projects/DHTK_30_3/module_top.v|
+Z115 !s90 -reportprogress|300|-work|work|/home/cgcom/projects/verilog_projects/projects/DHTK_30_3/module_top.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vyear_counter
+Z116 !s100 gR=V99Jd]MJ?fzhjj[hh;0
+Z117 I>_1J7gO:>^G?g^A_E8n9O3
+Z118 VVee6bT61IQ4fHl>6bICgj0
+R4
+R16
+R17
+R18
+Z119 L0 299
+R8
+r1
+31
+R20
+R21
+R22
+R10
+!i10b 1
+!s85 0
+!s101 -O0

@@ -1,0 +1,57 @@
+F:/All_apps_and_contents_3/Model_sim/projects/lab2/tb_majority.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/lab2/tb_majority.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module tb_majority
+
+Top level modules:
+	tb_majority
+
+} {} {}} F:/All_apps_and_contents_3/Model_sim/projects/lab2/alu_casex.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/lab2/alu_casex.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module alu_casex
+
+Top level modules:
+	alu_casex
+
+} {} {}} F:/All_apps_and_contents_3/Model_sim/projects/lab2/alu_case.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/lab2/alu_case.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module alu_case
+
+Top level modules:
+	alu_case
+
+} {} {}} F:/All_apps_and_contents_3/Model_sim/projects/lab2/tb_alu_casex.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/lab2/tb_alu_casex.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module tb_alu_casex
+
+Top level modules:
+	tb_alu_casex
+
+} {} {}} F:/All_apps_and_contents_3/Model_sim/projects/lab2/alu.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/lab2/alu.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} F:/All_apps_and_contents_3/Model_sim/projects/lab2/tb_alu_case.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/lab2/tb_alu_case.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module tb_alu_case
+
+Top level modules:
+	tb_alu_case
+
+} {} {}} F:/All_apps_and_contents_3/Model_sim/projects/lab2/tb_alu.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/lab2/tb_alu.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module tb_alu
+
+Top level modules:
+	tb_alu
+
+} {} {}} F:/All_apps_and_contents_3/Model_sim/projects/lab2/tb_alu_non_nested.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/lab2/tb_alu_non_nested.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module tb_alu_non_nested
+
+Top level modules:
+	tb_alu_non_nested
+
+} {} {}}

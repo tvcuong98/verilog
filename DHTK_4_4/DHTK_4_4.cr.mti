@@ -1,0 +1,79 @@
+/home/cgcom/projects/verilog_projects/projects/DHTK_4_4/binary_to_BCD.v {1 {vlog -work work /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/binary_to_BCD.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module bin2bcd
+
+Top level modules:
+	bin2bcd
+
+} {} {}} /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/donghotheki_testbench.v {1 {vlog -work work /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/donghotheki_testbench.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module DHTK_Testbench
+
+Top level modules:
+	DHTK_Testbench
+
+} {} {}} /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/module_top.v {1 {vlog -work work /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/module_top.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module module_top
+
+Top level modules:
+	module_top
+
+} {} {}} /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/donghotheki.v {1 {vlog -work work /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/donghotheki.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pulse_1s
+-- Compiling module pulse_0_5s
+-- Compiling module second_counter
+-- Compiling module minute_counter
+-- Compiling module hour_counter
+-- Compiling module day_counter
+-- Compiling module month_counter
+-- Compiling module year_counter
+
+Top level modules:
+	pulse_1s
+	pulse_0_5s
+	second_counter
+	minute_counter
+	hour_counter
+	day_counter
+	month_counter
+	year_counter
+
+} {} {}} /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/main_control.v {1 {vlog -work work /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/main_control.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module main_control
+-- Compiling module main_control_tb
+
+Top level modules:
+	main_control_tb
+
+} {} {}} /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/display.v {1 {vlog -work work /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/display.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module display
+
+Top level modules:
+	display
+
+} {} {}} /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/GiaiMa7Thanh.v {1 {vlog -work work /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/GiaiMa7Thanh.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Giaima7Thanh
+
+Top level modules:
+	Giaima7Thanh
+
+} {} {}} /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/minute_counter_tb.v {1 {vlog -work work /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/minute_counter_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module minute_counter_tb
+
+Top level modules:
+	minute_counter_tb
+
+} {} {}} /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/test_tung_module.v {1 {vlog -work work /home/cgcom/projects/verilog_projects/projects/DHTK_4_4/test_tung_module.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module test_module
+
+Top level modules:
+	test_module
+
+} {} {}}

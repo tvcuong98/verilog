@@ -1,0 +1,710 @@
+# Loading project lab3_fsm
+# Compile of counter.v was successful.
+# Compile of fsm.v was successful.
+# Compile of tb_counter.v was successful.
+# Compile of tb_fsm.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.fsm_tb
+# vsim work.fsm_tb 
+# Loading work.fsm_tb
+# Loading work.fsm
+add wave -position insertpoint sim:/fsm_tb/*
+run
+# Break in Module fsm_tb at /home/cgcom/projects/verilog_projects/projects/lab3/tb_fsm.v line 56
+run
+run
+# Compile of counter.v was successful.
+# Compile of fsm.v was successful.
+# Compile of tb_counter.v was successful.
+# Compile of tb_fsm.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.fsm_tb
+# vsim work.fsm_tb 
+# Loading work.fsm_tb
+# Loading work.fsm
+add wave -position insertpoint sim:/fsm_tb/*
+run
+# Break in Module fsm_tb at /home/cgcom/projects/verilog_projects/projects/lab3/tb_fsm.v line 56
+run
+run
+# WARNING: No extended dataflow license exists
+# Compile of counter.v was successful.
+# Compile of fsm.v was successful.
+# Compile of tb_counter.v was successful.
+# Compile of tb_fsm.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.fsm_tb
+# vsim work.fsm_tb 
+# Loading work.fsm_tb
+# Loading work.fsm
+add wave -position insertpoint sim:/fsm_tb/*
+run
+run
+run
+run
+run
+quit -sim
+# reading /home/cgcom/apps/modelsim/altera/13.1/modelsim_ase/linux/../modelsim.ini
+# Loading project lab3_donghotheky
+# Compile of second.v failed with 1 errors.
+# Compile of tb_second.v was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+# WARNING: No extended dataflow license exists
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+quit -sim
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+run
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+run
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+run
+add wave -position insertpoint sim:/tb_second/*
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+run
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+run
+quit -sim
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+add wave -position insertpoint sim:/tb_second/*
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+# Load canceled
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+run
+quit -sim
+# Compile of second.v was successful with warnings.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+# ** Warning: (vsim-3015) /home/cgcom/projects/verilog_projects/projects/lab3_donghotheky/tb_second.v(65): [PCDPC] - Port size (7 or 7) does not match connection size (6) for port 'sec'. The port definition is at: /home/cgcom/projects/verilog_projects/projects/lab3_donghotheky/second.v(37).
+#         Region: /tb_second/dut
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+quit -sim
+# Compile of second.v failed with 1 errors.
+# Compile of tb_second.v was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+run
+run
+quit -sim
+# Load canceled
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+# ** Error: (vsim-3053) /home/cgcom/projects/verilog_projects/projects/lab3_donghotheky/tb_second.v(20): Illegal output or inout port connection for "port 'y'".
+#         Region: /tb_second/dut
+# Error loading design
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+# ** Error: (vsim-3053) /home/cgcom/projects/verilog_projects/projects/lab3_donghotheky/tb_second.v(20): Illegal output or inout port connection for "port 'y'".
+#         Region: /tb_second/dut
+# Error loading design
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+quit -sim
+# Compile of second.v failed with 1 errors.
+# Compile of tb_second.v was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+# Load canceled
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+quit -sim
+# Compile of second.v failed with 1 errors.
+# Compile of tb_second.v was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of second.v failed with 1 errors.
+# Compile of tb_second.v was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# Compile of minute.v failed with 1 errors.
+# Compile of tb_minute.v failed with 1 errors.
+# 4 compiles, 2 failed with 2 errors. 
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# Compile of minute.v was successful.
+# Compile of tb_minute.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.tb_minute
+# vsim work.tb_minute 
+# Loading work.tb_minute
+# Loading work.minute
+# ** Error: (vsim-3063) /home/cgcom/projects/verilog_projects/projects/lab3_donghotheky/tb_minute.v(22): Port 'sec' not found in the connected module (5th connection).
+#         Region: /tb_minute/dut
+# Error loading design
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# Compile of minute.v was successful.
+# Compile of tb_minute.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.tb_minute
+# vsim work.tb_minute 
+# Loading work.tb_minute
+# Loading work.minute
+add wave -position insertpoint sim:/tb_minute/*
+run
+run
+run
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# Compile of minute.v was successful.
+# Compile of tb_minute.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.tb_minute
+# vsim work.tb_minute 
+# Loading work.tb_minute
+# Loading work.minute
+add wave -position insertpoint sim:/tb_minute/*
+run
+run
+run
+run
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# Compile of minute.v was successful.
+# Compile of tb_minute.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.tb_minute
+# vsim work.tb_minute 
+# Loading work.tb_minute
+# Loading work.minute
+add wave -position insertpoint sim:/tb_minute/*
+run
+run
+run
+run
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# Compile of minute.v was successful.
+# Compile of tb_minute.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_minute/*
+# (vish-4014) No objects found matching '/tb_minute/*'.
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# Compile of minute.v was successful.
+# Compile of tb_minute.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.tb_minute
+# vsim work.tb_minute 
+# Loading work.tb_minute
+# Loading work.minute
+add wave -position insertpoint sim:/tb_second/*
+# (vish-4014) No objects found matching '/tb_second/*'.
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# Compile of minute.v was successful.
+# Compile of tb_minute.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# Compile of minute.v failed with 1 errors.
+# Compile of tb_minute.v was successful.
+# Compile of top_module.v failed with 1 errors.
+# 5 compiles, 2 failed with 2 errors. 
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# Compile of minute.v was successful.
+# Compile of tb_minute.v was successful.
+# Compile of top_module.v failed with 1 errors.
+# 5 compiles, 1 failed with 1 error. 
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# Compile of minute.v was successful.
+# Compile of tb_minute.v was successful.
+# Compile of top_module.v was successful.
+# 5 compiles, 0 failed with no errors. 
+vsim work.tb_top_module
+# vsim work.tb_top_module 
+# Loading work.tb_top_module
+# Loading work.top_module
+# Loading work.second
+# Loading work.minute
+add wave -position insertpoint sim:/tb_top_module/*
+run
+run
+run
+run
+quit -sim
+vsim work.tb_second
+# vsim work.tb_second 
+# Loading work.tb_second
+# Loading work.second
+add wave -position insertpoint sim:/tb_second/*
+run
+run
+run
+run
+quit -sim
+vsim work.tb_top_module
+# vsim work.tb_top_module 
+# Loading work.tb_top_module
+# Loading work.top_module
+# Loading work.second
+# Loading work.minute
+add wave -position insertpoint sim:/tb_top_module/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# Compile of minute.v was successful.
+# Compile of tb_minute.v was successful.
+# Compile of top_module.v was successful.
+# 5 compiles, 0 failed with no errors. 
+vsim work.tb_top_module
+# vsim work.tb_top_module 
+# Loading work.tb_top_module
+# Loading work.top_module
+# Loading work.second
+# Loading work.minute
+add wave -position insertpoint sim:/tb_top_module/*
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# Compile of minute.v was successful.
+# Compile of tb_minute.v was successful.
+# Compile of top_module.v was successful.
+# 5 compiles, 0 failed with no errors. 
+vsim work.tb_top_module
+# vsim work.tb_top_module 
+# Loading work.tb_top_module
+# Loading work.top_module
+# Loading work.second
+# Loading work.minute
+add wave -position insertpoint sim:/tb_top_module/*
+run
+run
+run
+run
+run
+run
+quit -sim
+# Compile of second.v failed with 1 errors.
+# Compile of tb_second.v was successful.
+# Compile of minute.v was successful.
+# Compile of tb_minute.v was successful.
+# Compile of top_module.v was successful.
+# 5 compiles, 1 failed with 1 error. 
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# Compile of minute.v was successful.
+# Compile of tb_minute.v was successful.
+# Compile of top_module.v was successful.
+# 5 compiles, 0 failed with no errors. 
+vsim work.tb_top_module
+# vsim work.tb_top_module 
+# Loading work.tb_top_module
+# Loading work.top_module
+# Loading work.second
+# Loading work.minute
+add wave -position insertpoint sim:/tb_top_module/*
+run
+run
+run
+quit -sim
+vsim work.tb_top_module
+# vsim work.tb_top_module 
+# Loading work.tb_top_module
+# Loading work.top_module
+# Loading work.second
+# Loading work.minute
+quit -sim
+# Compile of second.v was successful.
+# Compile of tb_second.v was successful.
+# Compile of minute.v was successful.
+# Compile of tb_minute.v was successful.
+# Compile of top_module.v was successful.
+# 5 compiles, 0 failed with no errors. 
+vsim work.tb_top_module
+# vsim work.tb_top_module 
+# Loading work.tb_top_module
+# Loading work.top_module
+# Loading work.second
+# Loading work.minute
+add wave -position insertpoint sim:/tb_top_module/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

@@ -1,0 +1,78 @@
+F:/All_apps_and_contents_3/Model_sim/projects/DHTK_30_3/minute_counter_tb.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/DHTK_30_3/minute_counter_tb.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module minute_counter_tb
+
+Top level modules:
+	minute_counter_tb
+
+} {} {}} F:/All_apps_and_contents_3/Model_sim/projects/DHTK_30_3/test_tung_module.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/DHTK_30_3/test_tung_module.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module test_module
+
+Top level modules:
+	test_module
+
+} {} {}} F:/All_apps_and_contents_3/Model_sim/projects/DHTK_30_3/GiaiMa7Thanh.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/DHTK_30_3/GiaiMa7Thanh.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module Giaima7Thanh
+
+Top level modules:
+	Giaima7Thanh
+
+} {} {}} F:/All_apps_and_contents_3/Model_sim/projects/DHTK_30_3/display.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/DHTK_30_3/display.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module display
+
+Top level modules:
+	display
+
+} {} {}} F:/All_apps_and_contents_3/Model_sim/projects/DHTK_30_3/donghotheki_testbench.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/DHTK_30_3/donghotheki_testbench.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module DHTK_Testbench
+
+Top level modules:
+	DHTK_Testbench
+
+} {} {}} F:/All_apps_and_contents_3/Model_sim/projects/DHTK_30_3/binary_to_BCD.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/DHTK_30_3/binary_to_BCD.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module bin2bcd
+
+Top level modules:
+	bin2bcd
+
+} {} {}} F:/All_apps_and_contents_3/Model_sim/projects/DHTK_30_3/module_top.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/DHTK_30_3/module_top.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module module_top
+-- Compiling module main_control_tb
+
+Top level modules:
+	module_top
+	main_control_tb
+
+} {} {}} F:/All_apps_and_contents_3/Model_sim/projects/DHTK_30_3/donghotheki.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/DHTK_30_3/donghotheki.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module pulse_1s
+-- Compiling module second_counter
+-- Compiling module minute_counter
+-- Compiling module hour_counter
+-- Compiling module day_counter
+-- Compiling module month_counter
+-- Compiling module year_counter
+
+Top level modules:
+	pulse_1s
+	second_counter
+	minute_counter
+	hour_counter
+	day_counter
+	month_counter
+	year_counter
+
+} {} {}} F:/All_apps_and_contents_3/Model_sim/projects/DHTK_30_3/main_control.v {1 {vlog -work work -nocovercells F:/All_apps_and_contents_3/Model_sim/projects/DHTK_30_3/main_control.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module main_control
+
+Top level modules:
+	main_control
+
+} {} {}}
