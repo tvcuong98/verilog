@@ -1,4 +1,8 @@
-module pulse_1s (
+module pulse_1s 
+#(
+    parameter num_clk_cycle = 9 // Parameter for data bus width
+ )
+(
   input clk,
   input rst_n,
   output reg pulse
@@ -12,7 +16,7 @@ module pulse_1s (
         pulse <= 0;
     end
     else begin
-        if(counter < 9) begin // neu o day ghi 2 thi tuc la cu sau 3 chu ky clock thi tang 1s
+        if(counter < num_clk_cycle) begin // neu o day ghi 2 thi tuc la cu sau 3 chu ky clock thi tang 1s
             counter <= counter + 1;
             pulse <= 0;
         end

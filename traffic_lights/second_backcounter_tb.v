@@ -9,7 +9,7 @@ reg         pulse      ;
 wire        timeout    ;
 wire  [5:0] sec_count  ;
 
-second_backcounter uut (
+second_backcounter #(.T(6'd10),.t(6'd5)) uut (
     .clk        (    clk        ),
     .rst_n      (    rst_n      ),
     .mode       (    mode       ),

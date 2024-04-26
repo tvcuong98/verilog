@@ -1,4 +1,9 @@
-module second_backcounter(
+module second_backcounter
+#(
+    parameter T = 6'd10, 
+    parameter t = 6'd5
+ )
+(
     input clk, 
     input rst_n, 
     input mode,
@@ -6,9 +11,7 @@ module second_backcounter(
     output reg timeout, 
     output reg [5:0] sec_count
 );
-    reg [5:0] maxtime = 6'b001010 ; // this is 10 sec
-    localparam T = 6'b001010; // this is 10 sec
-    localparam t = 6'b000101;// this is 5 sec
+    reg [5:0] maxtime = 6'd10 ; // this is 10 sec
     always @(mode) begin
         case(mode)
             0: begin
@@ -26,11 +29,11 @@ module second_backcounter(
         end 
         else begin
             if (pulse) begin
-                if (sec_count < maxtime) begin 
-                    sec_count <= sec_count + 1'b1;
+                if (sec_count > 0) begin 
+                    sec_count <= sec_count - 1'b1;
                     timeout <= 0;
                 end else begin
-                    sec_count <= 0;
+                    sec_count <= maxtime;
                     timeout<= 1;
                 end
             end
