@@ -40,18 +40,20 @@ main:
     
 loop:
     # Load tens pattern from count into t1
-    div t1, t0, s3 
-    add t1, s0, t1
-    lb  t1, 0(t1)
-
+    div t1, t0, s3 # divide the value stored in t0 for the value stored in s3, save the quotient in t1
+    add t1, s0, t1 # adding value stored in s0 to value stored in t1 , stored in t1
+    lb  t1, 0(t1)  # the value in register t1 is treated as base memory address
+                   # the offset of 0 is added to this base address -> final memory address
+                   # the byte (8-bit) of data at the calculated mem-address is loaded into register t1 ( 32-bit wide ) 
+                   # sign extension was performed : This means the most significant bit (sign bit) of the loaded byte is replicated to fill the upper 24 bits of the register, ensuring the loaded value is interpreted correctly as a signed integer
     # Load ones pattern from count into t2
-    rem t2, t0, s3
-    add t2, s0, t2
-    lb  t2, 0(t2)
+    rem t2, t0, s3 # divide the value stored in t0 for the value stored in s3, save the remainder in t1
+    add t2, s0, t2 # adding value stored in s0 to value stored in t2 , stored in t2
+    lb  t2, 0(t2) # the byte (8-bit) of data at the calculated mem-address is loaded into register t2 ( 32-bit wide ) 
 
     # Put {tens,ones} pattern into a1 
-    slli a1, t1, 8
-    or   a1, a1, t2 
+    slli a1, t1, 8 # "Shift Left Logical Immediate." # Shift tens digit to make space
+    or   a1, a1, t2  # Insert the ones digit
 
     # drive_display(a1) - Environment call 0x120
     li a0, 0x120
