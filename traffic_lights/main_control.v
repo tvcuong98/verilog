@@ -10,8 +10,8 @@ module main_control(
     wire [2:0]highway_led,
     wire [2:0]countryroad_led
 );
-    pulse_1s #(.num_clk_cycle(9)) pulse_1s_dut (.clk(clk),.rst_n(rst_n),.pulse(pulse));
-    second_backcounter #(.T(6'd10),.t(6'd5)) second_backcounter_dut(.clk(clk),.rst_n(rst_n),.mode(mode),.pulse(pulse),.timeout(timeout),.sec_count(sec_count));
+    pulse_1s #(.num_clk_cycle(5)) pulse_1s_dut (.clk(clk),.rst_n(rst_n),.pulse(pulse));
+    second_backcounter #(.T(6'd5),.t(6'd2)) second_backcounter_dut(.clk(clk),.rst_n(rst_n),.mode(mode),.pulse(pulse),.timeout(timeout),.sec_count(sec_count));
     highway highway_dut (.clk(clk),.rst_n(rst_n),.sensor(sensor),.timeout(timeout),.enable_countryroad(enable_countryroad),.highway_led(highway_led),.mode(mode));
     countryroad countryroad_dut(.clk(clk),.rst_n(rst_n),.enable_countryroad(enable_countryroad),.timeout(timeout),.countryroad_led(countryroad_led));
 endmodule
@@ -59,5 +59,8 @@ initial begin
     rst_n=~rst_n;
     sensor = 0;
     #(PERIOD*10);
+    sensor = 1;
+    #(PERIOD*20);
+
 end
 endmodule

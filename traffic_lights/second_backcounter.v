@@ -1,7 +1,7 @@
 module second_backcounter
 #(
-    parameter T = 6'd10, 
-    parameter t = 6'd5
+    parameter T = 6'd5, 
+    parameter t = 6'd3
  )
 (
     input clk, 
@@ -24,7 +24,7 @@ module second_backcounter
     end
     always @(posedge clk or negedge rst_n) begin
         if (~rst_n) begin
-            sec_count <= 0;
+            sec_count <= maxtime;
             timeout <=0;
         end 
         else begin
@@ -36,6 +36,9 @@ module second_backcounter
                     sec_count <= maxtime;
                     timeout<= 1;
                 end
+            end
+            else begin
+                timeout <=0;
             end
         end
     end
